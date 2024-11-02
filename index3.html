@@ -1,0 +1,75 @@
+<html><head></head><body>Berikut adalah kelanjutan dari kode yang sebelumnya. Pastikan untuk menyalin seluruhnya untuk menggantikan bagian yang sudah ada.
+
+<p>Aroma diffuser adalah alat yang membantu menyebarkan minyak esensial ke udara untuk menciptakan suasana yang nyaman.</p>
+            
+            <div class="faq-item">
+                <p class="faq-question">Apa manfaat menggunakan aroma diffuser?</p>
+                <p>Aroma diffuser dapat membantu mengurangi stres, meningkatkan konsentrasi, dan menciptakan atmosfer yang lebih menyenangkan di rumah.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-question">Berapa lama minyak esensial bertahan dalam diffuser?</p>
+                <p>Durasi bertahannya minyak esensial tergantung pada jenis dan kualitas minyak, serta pengaturan diffuser yang digunakan.</p>
+            </div>
+        
+    
+    <footer> 
+        <p>Website ini dikembangkan oleh tim beranggotakan 5 pengembang untuk pengalaman berbelanja yang terbaik.</p> 
+    </footer> 
+    <script>
+        function showSection(sectionId) {
+            document.getElementById('home').style.display = 'none';
+            document.getElementById('category').style.display = 'none';
+            document.getElementById('promo').style.display = 'none';
+            document.getElementById('recommendation').style.display = 'none';
+            document.getElementById('contact').style.display = 'none';
+
+            document.getElementById(sectionId).style.display = 'block';
+        }
+
+        function getRecommendation(mood) {
+            let recommendation = '';
+
+            switch (mood) {
+                case 'relax':
+                    recommendation = 'Aroma yang cocok untuk Anda adalah Lavender.';
+                    break;
+                case 'energetic':
+                    recommendation = 'Aroma yang cocok untuk Anda adalah Peppermint.';
+                    break;
+                case 'focus':
+                    recommendation = 'Aroma yang cocok untuk Anda adalah Rosemary.';
+                    break;
+                case 'stressRelief':
+                    recommendation = 'Aroma yang cocok untuk Anda adalah Chamomile.';
+                    break;
+                default:
+                    recommendation = 'Silakan pilih suasana hati Anda!';
+                    break;
+            }
+
+            document.getElementById('recommendationText').innerText = recommendation;
+            document.getElementById('recommendationResult').style.display = 'block';
+        }
+
+        function resetRecommendation() {
+            document.getElementById('recommendationResult').style.display = 'none';
+        }
+    </script>
+
+
+
+Penjelasan Pembaruan:
+
+1. Pengertian di Home: Menambahkan penjelasan tentang apa itu aroma diffuser di bagian Home.
+
+
+2. FAQ di Kontak: Menambahkan bagian FAQ di halaman Kontak untuk memberikan informasi lebih lanjut kepada pengunjung.
+
+
+3. Desain Lebih Menarik: Menambahkan elemen seperti gambar hero di bagian Home, transisi hover pada produk, dan penyajian yang lebih menarik untuk setiap bagian.
+
+
+
+Dengan penambahan ini, tampilan website akan lebih informatif dan menarik. Pastikan untuk mengganti 'path/to/hero-image.jpg' dan gambar lainnya dengan path gambar yang sesuai. Jika ada yang perlu diubah lebih lanjut atau ingin ditambahkan, beri tahu saja!
+
+</body></html>
